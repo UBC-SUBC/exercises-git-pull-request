@@ -51,11 +51,21 @@ This process is called the *[feature branch workflow][atlassian-feature-branch-f
 
 We're going to create a pull request that contains two individual commits involving different files.
 
-### Fork And Clone This Repository
+### Clone This Repository
 
-First, fork this repository to create your own copy.
+Open VSCode (or your terminal) -- VSCode is recommended. Go to View -> Terminal to see your terminal (you can also "drag up" from the bar at the bottom of the screen). You will be typing the commands below into the terminal. When I open it, I see this:
+```console
+jocelynzhao@Jocelyns-MacBook-Pro ~ %
+```
+This indicates that I am in my home repository. Running `ls` lists the files and folders in my home repository. In my base repository, I have a folder called Desktop. To go into my Desktop folder, I run `cd Desktop` which shows
 
-Next, clone **your fork** using the `git clone` command. This will create a copy of your repository on your computer (called a *local copy*).
+```console
+jocelynzhao@Jocelyns-MacBook-Pro Desktop % 
+```
+I can continue navigating through my file storage system like this, until I find where I want to store my folder (I usually create a folder somewhere called SUBC and put all my SUBC related folders in there). Don't worry about doing this if it's too complicated though. 
+
+
+Next, clone **your fork** using the `git clone` command. This will create a copy of your repository on your computer (called a *local copy*) that exists in your current folder.
 
 **Note**: Replace `link` with the link under the green (code) button at the top of the repository
 
@@ -68,6 +78,11 @@ This will create a directory named `exercises-git-pull-request` inside the curre
 ```console
 cd exercises-git-pull-request
 ```
+
+You can now open this folder using VSCode. Press the file icon (Explorer), then press Open Folder. Navigate through your filesystem until you get to where you stored the folder `exercises-git-pull-request`. Select the `exercises-git-pull-request` folder and click open. This should load the folder into your VSCode. You will be able to add files and folders very easily by right-clicking on the left navigation bar. You can edit files by directly clicking on them, this should load the files into your main window.
+
+**Note**: at this point, you may need to reopen your terminal. You can do this the same way as described earlier. 
+
 
 ### Create A Feature Branch
 
@@ -85,7 +100,7 @@ $ git branch
 $
 ```
 
-Let's create a new branch and switch to it. Run the following:
+Let's create a new branch and switch to it. Run the following, replacing your-name with your actual name:
 
 ```console
 git checkout -b your-name
