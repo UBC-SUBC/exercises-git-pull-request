@@ -199,15 +199,23 @@ On GitHub, you should see the following: <https://share.getcloudapp.com/YEud6DE4
 
 Click the **Compare & Pull Request**. On the next page, click **Create Pull Request**.
 
+You can also get here by going to your branch in the Github page (click Branches to view all branches). On this page, beside the branch you want to submit a pull request for, click the three dots beside the garbage can. You should see a dropdown, one of which has the option to create a New Pull Request. 
+
 You should see a screen that looks like below. Make sure that base repository is *changed* to UBC-SUBC/exercises-git-pull-request
+
+This is what the **wrong** version looks like:
 <img width="1264" alt="Screenshot 2024-08-17 at 10 19 32 PM" src="https://github.com/user-attachments/assets/dd11a71b-305d-469b-b1a7-8870a250b217">
+
+This is what the correct version looks like:
+<img width="1256" alt="Screenshot 2024-08-17 at 10 41 52 PM" src="https://github.com/user-attachments/assets/27234fd2-3d2c-4173-9410-4175f029cd81">
+
 
 Ta-da, first pull request!
 
 ## Merging Pull Request
 
-Please don't do this, but it is good to know how to merge.
-Once you're ready to go, merge your pull request into the `master` branch. There should be a button that pops up on your pull request.
+You don't have to do this for this exercise, but it is good to know how to merge.
+Once you're ready to go, merge your pull request into the `master` branch. There should be a green button that pops up on your pull request. You may need to have your code reviewed by another person first, depending on the rules for the repository.
 
 [github-fundamentals-i]: https://github.com/jfarmer/exercises-javascript-fundamentals
 [atlassian-feature-branch-flow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
