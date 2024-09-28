@@ -1,1 +1,2 @@
-Testing add/ commit and push
+
+Goodbye! About to submit my first pull request.
