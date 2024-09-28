@@ -1,3 +1,0 @@
-hello
-this is my second pull request
-goodbye for now
