@@ -189,19 +189,19 @@ Replace `branch_name` with the name of the branch (should be your name, or whate
 git push --set-upstream origin branch_name
 ```
 
-Here `origin` refers to GitHub.
+This sets the origin (the place where you make your changes) to the latest commit on the branch `branch_name`.
 
-Now visit your repository on GitHub.com!
+Now visit your repository on GitHub.com! Click Branches to see details of your branch. 
 
 ### Create A Pull Request
 
-On GitHub, you should see the following: <https://share.getcloudapp.com/YEud6DE4>
+On GitHub, you should see the following when you click into your branch
+<img width="933" alt="Screenshot 2024-09-28 at 10 19 20 PM" src="https://github.com/user-attachments/assets/64b4a8ce-eaef-48fb-8980-fc1a0150b7ca">
 
-Click the **Compare & Pull Request**. On the next page, click **Create Pull Request**.
 
-You can also get here by going to your branch in the Github page (click Branches to view all branches). On this page, beside the branch you want to submit a pull request for, click the three dots beside the garbage can. You should see a dropdown, one of which has the option to create a New Pull Request. 
+Click the **Contribute** and then select **Open Pull Request**.
 
-You should see a screen that looks like below. Make sure that base repository is *changed* to UBC-SUBC/exercises-git-pull-request
+You should see a screen that looks like below. *Make sure that base repository is changed* to UBC-SUBC/exercises-git-pull-request
 
 This is what the **wrong** version looks like:
 <img width="1264" alt="Screenshot 2024-08-17 at 10 19 32 PM" src="https://github.com/user-attachments/assets/dd11a71b-305d-469b-b1a7-8870a250b217">
